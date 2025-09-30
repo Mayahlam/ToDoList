@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #1201ff;
+}
+#wrapper {
+    color: #fff;
+    margin: auto;
+    padding: 30px 40px;
+    background-color: rgb(4, 2, 58);
+    text-align: center;
+}
+
+.input-container {
+    display: flex; 
+    justify-content: center;  
+    align-items: center; 
+    gap: 5px;/* Add spacing between the input and button */
+    margin-top: 10px; 
+}
+
+ul li {
+    list-style: none;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    padding: 5px; 
+}
+
+#myInput {
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    width: 70%; 
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+#wrapper button {
+    border-radius: 5px;
+    padding: 10px;
+    width: auto; 
+    background: #047dfe;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.checkBox {
+    width: 20px; 
+    height: 20px;
+    align-self: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.class-list-header {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.class-list-header h2 {
+    text-align: center;
+    font-size:32px;
+}
+.remove-complete-btn {
+    background-color: rgb(4, 2, 58);
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
